@@ -1,0 +1,55 @@
+.click {
+    border:none;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#button{
+    float: right;
+    margin-right:1% ;
+}
+.board {
+    border-collapse: collapse;
+    border: none;
+  }
+
+.board td {
+    border: 3px solid black;
+  }
+  
+.board tr:first-child td {
+    border-top: none;
+  }
+  
+.board tr:last-child td {
+    border-bottom: none;
+  }
+  
+.board tr td:first-child {
+    border-left: none;
+  }
+  
+.board tr td:last-child {
+    border-right: none;
+  }
+.board{
+    margin-left: auto;
+    margin-right: auto;
+  }
+span{
+    font-size: 50px;
+  }
+.x{
+    color:red;
+  }
+.o{
+    color:blue;
+  }
+h1 {
+    margin-left: 2.5%;
+display: inline; }
+h2 {
+    display:inline;
+    float: right;
+    margin-right: 2%;
+}
