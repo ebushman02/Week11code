@@ -8,6 +8,7 @@
     float: right;
     margin-right:1% ;
 }
+/* make the tic-tac-toe board by removing the outer borders of the table */
 .board {
     border-collapse: collapse;
     border: none;
